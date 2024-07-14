@@ -1,0 +1,100 @@
+.AnswerButtons, #RevealScore, #NextQuestion {
+    background-color: rgb(28, 74, 167);
+    font-size: larger;
+    border-radius: 20px;
+}
+
+#RevealScore {
+    margin-left: 390px;
+}
+
+#NextQuestion {
+    background-color: azure;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+}
+
+.AnswerButtons:disabled {
+    background-color: rgb(28, 74, 167);
+    font-size: larger;
+    border-radius: 20px;
+    opacity: 1;
+    color: inherit;
+    border: 2px solid black;
+}
+
+#YourScore {
+    color: rgb(197, 198, 199);
+    font-size: xx-large;
+    margin-left: 650px;
+}
+
+.questions{
+    height: 100px;
+    width: 700px;
+    text-align: center;
+    background: linear-gradient(to top, rgb(51, 120, 116), rgb(102, 252, 241));
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    height: 200px;
+    border-radius: 10px;
+} 
+
+html {
+    background: linear-gradient(to right, rgb(11, 12, 16), rgb(54, 62, 72));
+}
+
+#FinishTest {
+    margin-top: 50px;
+    width: 100px;
+    height: 20px;
+}
+
+.ToGap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#RevealScore, #FinishTest {
+    height: 40px;
+    width: 250px;
+    border-radius: 0;
+}
+
+#questionSec2, #questionSec3, #questionSec4, #questionSec5 {
+    display: none;
+}
+
+#questionSec {
+    margin-top: 150px;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#question {
+    font-size: larger;
+}
+
+.ProgressBar {
+    display: flex;
+    justify-content: center;
+}
+
+.Progress {
+    height: 30px;
+    width: 150px;
+}
+
+.Progress {
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    opacity: 1;
+}
